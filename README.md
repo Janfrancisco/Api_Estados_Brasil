@@ -1,6 +1,6 @@
 # api_getx_estados_br
 
-A new Flutter project.
+Projeto de consumo de API dos Estados Brasileiros, com utilização do GetX
 
 ## Getting Started
 
