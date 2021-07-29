@@ -1,6 +1,10 @@
 # api_getx_estados_br
 
-Projeto de consumo de API dos Estados Brasileiros, com utilização do GetX
+Simples Projeto de consumo de API dos Estados Brasileiros, com utilização do GetX
+
+
+![Capturar](https://user-images.githubusercontent.com/16168704/127519543-8acab88e-398b-4a41-83cc-6192b6bf0158.JPG)
+
 
 ## Getting Started
 
