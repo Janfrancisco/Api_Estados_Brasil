@@ -12,7 +12,9 @@ class HomePage extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('Estados Brasileiros')),
+        appBar: AppBar(
+          title: Text('Estados Brasileiros'),
+        ),
         body: GetX<HomeController>(
           initState: (state) {
             Get.find<HomeController>().getAll();
