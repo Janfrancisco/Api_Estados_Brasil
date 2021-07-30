@@ -13,7 +13,10 @@ class HomePage extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Estados Brasileiros'),
+          title: Text(
+            'Estados Brasileiros',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
         ),
         body: GetX<HomeController>(
           initState: (state) {
