@@ -1,5 +1,8 @@
 import 'package:api_getx_estados_br/app/data/model/states_model.dart';
+import 'package:api_getx_estados_br/app/modules/authentication/controller.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 import 'home_controller.dart';
@@ -13,8 +16,16 @@ class HomePage extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.greenAccent[400],
+          actions: [
+            IconButton(
+                onPressed: () {
+                  Get.find<AuthController>().signout();
+                },
+                icon: Icon(Icons.logout))
+          ],
           title: Text(
-            'Estados Brasileiros',
+            Get.arguments,
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
         ),

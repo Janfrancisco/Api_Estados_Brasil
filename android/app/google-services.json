@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48289461578",
+    "firebase_url": "https://saleteunhas-7b777.firebaseio.com",
+    "project_id": "saleteunhas-7b777",
+    "storage_bucket": "saleteunhas-7b777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48289461578:android:12043274895b0652f3bdb3",
+        "android_client_info": {
+          "package_name": "com.example.api_getx_estados_br"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48289461578-5da02thhrppetg51693fnhtrd106dags.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcFzw-Bf9RL8u6BpkQnzwLa1pZSJLKJEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48289461578-5da02thhrppetg51693fnhtrd106dags.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
